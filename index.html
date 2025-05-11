@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kosmad Serv</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: white;
+            scroll-behavior: smooth;
+        }
+        header {
+            background-color: #111;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 36px;
+            font-weight: bold;
+            margin: 0;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 60px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .hero {
+            background-image: url('hero-placeholder.jpg');
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .hero h2 {
+            font-size: 48px;
+            color: white;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        input, textarea {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        input[type="submit"] {
+            background-color: #e30613;
+            color: white;
+            cursor: pointer;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #111;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Kosmad Serv</h1>
+    <nav>
+        <a href="#despre">Despre Noi</a>
+        <a href="#servicii">Servicii</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Calitate și Încredere în Piese Auto</h2>
+</section>
+
+<section id="despre">
+    <h2>Despre Noi</h2>
+    <p>Kosmad Serv este un furnizor de încredere de piese auto pentru autoturisme, dube și camioane. Ne dedicăm oferirii de produse originale și aftermarket de la producători consacrați precum MAN, ATE, Brembo, Hengst, Sachs, Febi și alții. Cu livrare zilnică în Pitești după ora 17:00, ne asigurăm că piesele ajung rapid și în siguranță la clienții noștri.</p>
+</section>
+
+<section id="servicii">
+    <h2>Serviciile Noastre</h2>
+    <ul>
+        <li>Vânzare piese auto pentru turisme</li>
+        <li>Vânzare piese pentru dube</li>
+        <li>Vânzare piese pentru camioane</li>
+    </ul>
+    <p>Produse livrate prompt și cu garanția calității!</p>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Comenzi online, livrare la domiciliu în fiecare zi după ora 17:00, doar în zona Pitești.</p>
+    <form>
+        <input type="text" placeholder="Numele tău" required>
+        <input type="tel" placeholder="Telefon" required>
+        <textarea placeholder="Mesajul tău" rows="4" required></textarea>
+        <input type="submit" value="Trimite">
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2025 Kosmad Serv. Toate drepturile rezervate.</p>
+</footer>
+
+</body>
+</html>
